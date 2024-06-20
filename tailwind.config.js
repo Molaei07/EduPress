@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'ExoSemiBold': '"ExoSemiBold"',
+      'JostMedium': '"JostMedium"',
+      'JostRegular': '"JostRegular"'
+    },
+    extend: {}
   },
   plugins: [],
 }
