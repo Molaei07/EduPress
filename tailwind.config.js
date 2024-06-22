@@ -10,7 +10,12 @@ export default {
       'JostMedium': '"JostMedium"',
       'JostRegular': '"JostRegular"'
     },
-    extend: {}
+    extend: {
+      backgroundImage: {
+        "sliderLeftBtn": "url('./images/leftBtn.png')",
+        "sliderRightBtn": "url('./images/rightBtn.png')"
+      }
+    }
   },
   plugins: [],
 }
