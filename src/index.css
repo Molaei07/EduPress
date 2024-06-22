@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "ExoSemiBold";
+    src: url(./assets/fonts/Exo-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: "JostMedium";
+    src: url(./assets/fonts/Jost-Medium.ttf);
+  }
+  @font-face {
+    font-family: "JostRegular";
+    src: url(./assets/fonts/Jost-Regular.ttf);
+  }
+}
+
+@layer utilities {
+  .BeginBackground {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/GoBegin.png), url(./images/Rectangle143.png);
+  }
+}
+
+@layer components {
+  .Menuitems {
+    @apply h-full slowMotion hover:cursor-pointer hover:bg-[#F5F5F5] text-center leading-7 lg:py-3 lg:px-5;
+  }
+  .gridViewName {
+    @apply font-ExoSemiBold text-xl sm:text-2xl;
+  }
+  .gridViewDescription {
+    @apply font-JostRegular text-xs sm:text-sm text-gray-500;
+  }
+  .gridViewButton {
+    @apply font-JostMedium text-sm sm:text-base py-1 px-4 border border-black border-solid rounded-full hover:scale-105 transition-all duration-200;
+  }
+  .slowMotion {
+    @apply transition-all duration-200;
+  }
+  .orangeButton {
+    @apply px-2 lg:px-4 py-1 lg:py-2 text-sm lg:text-base font-JostMedium bg-orange-500 rounded-full text-white slowMotion hover:scale-105;
+  }
+  .hoverItems {
+    @apply relative top-0 hover:scale-95 lg:hover:top-[-20px] hover:cursor-pointer hover:shadow-xl;
+  }
+  .sliderRightBtn {
+    @apply w-8 h-8 rounded-full bg-sliderRightBtn bg-center bg-no-repeat bg-[length:10px] bg-red-600
+  }
+  .sliderLeftBtn {
+    @apply w-8 h-8 rounded-full bg-sliderLeftBtn bg-center bg-no-repeat bg-[length:10px] bg-red-600
+  }
+}
