@@ -3,7 +3,7 @@ import { Courses } from "../courseItems/courses";
 export const filtersId = [];
 const filterArray = [];
 
-export const handleFilter = (nameItem) => {
+export const handleFilter = (nameItem, set) => {
   const selectedFilter = filtersId.find((obj) => {
     return obj.name === nameItem;
   });
@@ -14,12 +14,12 @@ export const handleFilter = (nameItem) => {
     let selectedIndex = filtersId.indexOf(selectedFilter);
     filtersId.splice(selectedIndex, 1);
   }
-  filtering(filtersId, Courses);
+  filtering(filtersId, Courses, set);
 };
 
-export const filtering = (ids, data) => {
+export const filtering = (ids, data, set) => {
   filterArray.length = 0;
-  
+  // Filtering the courses array
   for (let i = 0; i < ids.length; i++) {
     filterArray.push(
       data.filter((el) => {
@@ -27,10 +27,12 @@ export const filtering = (ids, data) => {
       })
     );
   }
-
+  // Clear the filterArray after clear filtersId array
   if (ids.length === 0) {
-    alert();
     filterArray.length = 0;
   }
-  console.log(filterArray.flat(Infinity));
+  // Delete duplicate items
+  const newFilterArray = [...new Set(filterArray.flat(Infinity))]
+  // Set to State
+  set(newFilterArray)
 };
