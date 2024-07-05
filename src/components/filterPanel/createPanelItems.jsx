@@ -17,7 +17,7 @@ const CreatePanelItem = ({ filter, typeOf, typeName, itemsName, number, stars })
                         return (
                             <div key={index} className="w-full flex justify-between">
                                 <div className="w-full flex gap-x-2">
-                                    <input  type="checkbox" onClick={()=>{handleFilter(name)}} name={typeOf} id={name} className="hover:cursor-pointer" />
+                                    <input  type="checkbox" onClick={()=>{handleFilter(name, filter)}} name={typeOf} id={name} className="hover:cursor-pointer" />
                                     <label htmlFor={name} className="text-gray-500 hover:cursor-pointer">{name}</label>
                                 </div>
                                 <span className="text-gray-500 font-JostRegular">{number}</span>
