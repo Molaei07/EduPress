@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     fontFamily: {
       'ExoSemiBold': '"ExoSemiBold"',
@@ -13,7 +14,9 @@ export default {
     extend: {
       backgroundImage: {
         "sliderLeftBtn": "url('./images/leftBtn.png')",
-        "sliderRightBtn": "url('./images/rightBtn.png')"
+        "sliderRightBtn": "url('./images/rightBtn.png')",
+        "arrowBottom": "url('../../../../../public/images/arrowBottom.png')",
+        "arrowTop": "url('../../../../../public/images/arrowTop.png')"
       }
     }
   },
