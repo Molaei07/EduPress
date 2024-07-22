@@ -7,9 +7,10 @@ export default {
   darkMode: "class",
   theme: {
     fontFamily: {
-      'ExoSemiBold': '"ExoSemiBold"',
-      'JostMedium': '"JostMedium"',
-      'JostRegular': '"JostRegular"'
+      'ExoSemiBold': '"ExoSemiBold", "IranSans"',
+      'JostMedium': '"JostMedium", "Aban"',
+      'JostRegular': '"JostRegular", "Nasim"',
+      'Farsi': '"Farsi"'
     },
     extend: {
       backgroundImage: {
