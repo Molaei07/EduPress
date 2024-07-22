@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "react": "^18.2.0",
+    "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
+    "react-hamburger-menu": "^1.2.1",
     "react-multi-carousel": "^2.8.5",
+    "react-multi-lang": "^2.2.0",
     "react-responsive": "^10.0.0",
     "react-router-dom": "^6.23.1"
   },
