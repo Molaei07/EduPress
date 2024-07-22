@@ -1,0 +1,209 @@
+{
+  "applicationName": "EduPress",
+  "header": {
+    "home": "Home",
+    "courses": "Courses",
+    "blog": "Blog",
+    "page": "Page",
+    "learnPress Add-On": "LearnPress Add-On",
+    "Premium Theme": "Premium Theme",
+    "register": "Register",
+    "Login": "Login"
+  },
+  "footer": {
+    "description": "",
+    "part1": {
+      "partName": "GET HELP",
+      "contactUs": "Contact Us",
+      "latestArticles": "Latest Articles",
+      "faq": "FAQ"
+    },
+    "part2": {
+      "partName": "PROGRAMS",
+      "art&Design": "Art & Design",
+      "business": "Business",
+      "iT&Software": "IT & Software",
+      "languages": "Languages",
+      "programming": "Programming"
+    },
+    "part3": {
+      "partName": "CONTACTUS",
+      "address": "Address: 2321 New Design Str, Lorem Ipsum10 Hudson Yards, USA",
+      "tel": "Tel: + (123) 2500-567-8988",
+      "mail": "Mail: supportlms@gmail.com"
+    },
+    "span": "Copyright © 2024 LearnPress LMS | Powered by ThimPress"
+  },
+  "posters": {
+    "firstPoster": {
+      "name": "Build Skills With Online Course",
+      "description": "We denounce with righteous indignation and dislike men who are so beguiled and demoralized that cannot trouble.",
+      "button": "Posts comment"
+    },
+    "learnPressPoster": {
+      "tag": "GET MORE POWER FROM",
+      "name": "LearnPress Add-Ons",
+      "description": "The next level of LearnPress - LMS WordPress Plugin. More Powerful, Flexible and Magical Inside.",
+      "button": "Explorer course"
+    },
+    "growSkillPoster": {
+      "name": {
+        "line1": "Grow Us Your Skill",
+        "line2": "With LearnPress LMS"
+      },
+      "description": "We denounce with righteous indignation and dislike men who are so beguiled and demoralized that cannot trouble.",
+      "button": "Explorer course",
+      "licenses": "Certification"
+    },
+    "wordpressThemePoster": {
+      "tag": "PROVIDING AMAZING",
+      "name": "Education Wordpress Theme",
+      "description": "The next level of LMS WordPress Theme. Learn anytime and anywhere.",
+      "button": "Explorer course"
+    },
+    "goBeginPoster": {
+      "name": "Let’s Start With Academy LMS",
+      "buttons": {
+        "button1": "I’m a student",
+        "button2": "Become an Instructor"
+      }
+    }
+  },
+  "gridViews": {
+    "topCategories": {
+      "title": "Top Categories",
+      "description": "Explore our Popular Categories",
+      "button": "All categories",
+      "courses": "Courses",
+      "categories": {
+        "Art & Design": "Art & Design",
+        "Development": "Development",
+        "Communiication": "Communiication",
+        "Videography": "Videography",
+        "Photography": "Photography",
+        "Marketing": "Marketing",
+        "Content writing": "Content writing",
+        "Finance": "Finance",
+        "Science": "Science",
+        "Network": "Network"
+      }
+    },
+    "feedbacks": {
+      "name": "Student feedbacks",
+      "description": "What Students Say About Academy LMS",
+      "userName": "Roe Smith",
+      "feedbackText": "I must explain to you how all this mistaken . Tdea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound",
+      "side": "Designer"
+    },
+    "blogs": {
+      "name": "Latest articles",
+      "description": "Explore our Free Acticles",
+      "button": "All articles",
+      "items": {
+        "name": "Best LearnPress WordPress Theme Collection for 2023",
+        "description": ".Looking for an amazing & well-functional LearnPress WordPress Theme?.."
+      }
+    }
+  },
+  "statistics": {
+    "s1": "Satisfaction rate",
+    "s2": "Instructor",
+    "s3": "Total Courses",
+    "s4": "Active Students"
+  },
+  "commentForm": {
+    "titer": "Comments",
+    "title": "Leave a comment",
+    "description": "Your email address will not be published. Required fields are marked *",
+    "nameInput": "Name*",
+    "emailInput": "Email*",
+    "commentInput": "Comment",
+    "saveMe": "Save my name, email in this brower for the next time I comment",
+    "button": "Posts comment",
+    "reply": "Reply"
+  },
+  "filterButtons": {
+    "part1": {
+      "partName": "Course category",
+      "button1": "commercial",
+      "button2": "office",
+      "button3": "shop",
+      "button4": "educate",
+      "button5": "academy",
+      "button6": "single family home",
+      "button7": "studio",
+      "button8": "university"
+    },
+    "part2": {
+      "partName": "Instructors",
+      "button1": "Kenny White",
+      "button2": "John Doe"
+    },
+    "part3": {
+      "partName": "Price",
+      "button1": "Free",
+      "button2": "Paid"
+    },
+    "part4": {
+      "partName": "Reviews"
+    },
+    "part5": {
+      "partName": "Level",
+      "button1": "Beginner",
+      "button2": "Intermidiate",
+      "button3": "Expert"
+    }
+  },
+  "singleCourseTabs": {
+    "header": {
+      "overview": "Overview",
+      "curriculum": "Curriculum",
+      "instructor": "Instructor",
+      "faqs": "FAQs",
+      "reviews": "Reviews"
+    },
+    "overview": {
+      "paragraph1": "LearnPress is a comprehensive WordPress LMS Plugin for WordPress. This is one of the best WordPress LMS Plugins which can be used to easily create & sell courses online. You can create a course curriculum with lessons & quizzes included which is managed with an easy-to-use interface for users. Having this WordPress LMS Plugin, now you have a chance to quickly and easily create education, online school, online-course websites with no coding knowledge required.",
+      "paragraph2": "LearnPress is free and always will be, but it is still a premium high-quality WordPress Plugin that definitely helps you with making money from your WordPress Based LMS. Just try and see how amazing it is. LearnPress WordPress Online Course plugin is lightweight and super powerful with lots of Add-Ons to empower its core system.How to use WPML Add-on for LearnPress?",
+      "paragraph3": "No comments yet! You be the first to comment."
+    },
+    "instructor": {
+      "title": "ThimPress",
+      "paragraph1": "LearnPress is a comprehensive WordPress LMS Plugin for WordPress. This is one of the best WordPress LMS Plugins which can be used to easily create & sell courses online.",
+      "student": "Students",
+      "lesson": "Lessons",
+      "paragraph2": "LearnPress is a comprehensive WordPress LMS Plugin for WordPress. This is one of the best WordPress LMS Plugins which can be used to easily create & sell courses online.",
+      "follow": "Follow"
+    },
+    "faqs": {
+      "title": "What Does Royalty Free Mean?",
+      "description": "Royalties means that when you have royalties on the site, you can have the right to comment on the side and put your courses for sale on our site for free. We consider it our duty to respect your criticisms and to act"
+    },
+    "curriculum": {
+      "title": "Lessons with video content",
+      "description": "LearnPress is a comprehensive WordPress LMS Plugin for WordPress. This is one of the best WordPress LMS Plugins which can be used to easily create & sell courses online.",
+      "lessons": "Lessons",
+      "mins": "Mins",
+      "subName": "Lessons with video content",
+      "button": "Preview"
+    }
+  },
+  "courseItems": {
+    "title": "Featured courses",
+    "description": "Explore our Popular Courses",
+    "button": "All courses",
+    "by": "by",
+    "Free": "Free",
+    "weeks": "Weeks",
+    "students": "Students",
+    "more": "View More",
+    "levels": "levels",
+    "lessons": "Lessons",
+    "quizzes": "Quizzes",
+    "start": "Start Now"
+  },
+  "allCoursesSubHeader": {
+    "titer": "All Courses",
+    "search": "Search"
+  }
+}
