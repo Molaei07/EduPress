@@ -1,9 +1,10 @@
-import { Courses } from "../courseItems/courses";
+/* eslint-disable no-unused-vars */
+import { Courses, CoursesFa } from "../../data/courses/courses";
 
-export const filtersId = [];
+export var filtersId = [];
 const filterArray = [];
 
-export const handleFilter = (nameItem, set) => {
+export const handleFilter = (nameItem, set, language) => {
   const selectedFilter = filtersId.find((obj) => {
     return obj.name === nameItem;
   });
@@ -14,7 +15,12 @@ export const handleFilter = (nameItem, set) => {
     let selectedIndex = filtersId.indexOf(selectedFilter);
     filtersId.splice(selectedIndex, 1);
   }
-  filtering(filtersId, Courses, set);
+
+  if (language === false) {
+    filtering(filtersId, Courses, set);
+  } else {
+    filtering(filtersId, CoursesFa, set);
+  }
 };
 
 export const filtering = (ids, data, set) => {
@@ -23,7 +29,13 @@ export const filtering = (ids, data, set) => {
   for (let i = 0; i < ids.length; i++) {
     filterArray.push(
       data.filter((el) => {
-        return el.category === ids[i].name || el.instructor === ids[i].name;
+        return (
+          el.category === ids[i].name ||
+          el.instructor === ids[i].name ||
+          el.level === ids[i].name ||
+          el.star == ids[i].name ||
+          el.typeShop === ids[i].name
+        );
       })
     );
   }
@@ -32,7 +44,7 @@ export const filtering = (ids, data, set) => {
     filterArray.length = 0;
   }
   // Delete duplicate items
-  const newFilterArray = [...new Set(filterArray.flat(Infinity))]
+  const newFilterArray = [...new Set(filterArray.flat(Infinity))];
   // Set to State
-  set(newFilterArray)
+  set(newFilterArray);
 };
