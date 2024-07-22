@@ -15,6 +15,19 @@
     font-family: "JostRegular";
     src: url(./assets/fonts/Jost-Regular.ttf);
   }
+  @font-face {
+    font-family: "IranSans";
+    src: url(./assets/fonts/IranSans.ttf);
+    font-family: 20px;
+  }
+  @font-face {
+    font-family: "Nasim";
+    src: url(./assets/fonts/nasim.ttf);
+  }
+  @font-face {
+    font-family: "Aban";
+    src: url(./assets/fonts/Aban.ttf);
+  }
 }
 
 @layer utilities {
@@ -22,22 +35,34 @@
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./images/GoBegin.png), url(./images/Rectangle143.png);
+    background-image: url(../public/images/GoBegin.png),
+      url(../public/images/Rectangle143.png);
+  }
+  .searchBg {
+    background-image: url(../public/images/search2.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+  }
+  .dirRTL {
+    direction: rtl;
+  }
+  .fontEn{
+    font-family: ExoSemiBold, Farsi;
   }
 }
 
 @layer components {
   .Menuitems {
-    @apply h-full slowMotion hover:cursor-pointer hover:bg-[#F5F5F5] text-center leading-7 lg:py-3 lg:px-5;
+    @apply w-full lg:w-auto h-full slowMotion hover:cursor-pointer dark:text-white hover:bg-[#F5F5F5] dark:hover:bg-neutral-600 text-center leading-7 lg:py-3 lg:px-5;
   }
   .gridViewName {
-    @apply font-ExoSemiBold text-xl sm:text-2xl;
+    @apply font-ExoSemiBold text-xl sm:text-2xl dark:text-white;
   }
   .gridViewDescription {
-    @apply font-JostRegular text-xs sm:text-sm text-gray-500;
+    @apply font-JostRegular text-sm text-gray-500 dark:text-gray-200;
   }
   .gridViewButton {
-    @apply font-JostMedium text-sm sm:text-base py-1 px-4 border border-black border-solid rounded-full hover:scale-105 transition-all duration-200;
+    @apply font-JostMedium text-sm sm:text-base py-1 px-4 border border-black dark:border-white dark:text-white rounded-full hover:scale-105 transition-all duration-200;
   }
   .slowMotion {
     @apply transition-all duration-200;
@@ -46,12 +71,18 @@
     @apply px-2 lg:px-4 py-1 lg:py-2 text-sm lg:text-base font-JostMedium bg-orange-500 rounded-full text-white slowMotion hover:scale-105;
   }
   .hoverItems {
-    @apply relative top-0 hover:scale-95 lg:hover:top-[-20px] hover:cursor-pointer hover:shadow-xl;
+    @apply relative top-0 hover:scale-95 hover:cursor-pointer hover:shadow-xl;
   }
   .sliderRightBtn {
-    @apply w-8 h-8 rounded-full bg-sliderRightBtn bg-center bg-no-repeat bg-[length:10px] bg-red-600
+    @apply w-8 h-8 rounded-full bg-sliderRightBtn bg-center bg-no-repeat bg-[length:10px] bg-red-600;
   }
   .sliderLeftBtn {
-    @apply w-8 h-8 rounded-full bg-sliderLeftBtn bg-center bg-no-repeat bg-[length:10px] bg-red-600
+    @apply w-8 h-8 rounded-full bg-sliderLeftBtn bg-center bg-no-repeat bg-[length:10px] bg-red-600;
+  }
+  .paddingLayout {
+    @apply px-4 sm:px-16 xl:px-48;
+  }
+  .filedComment {
+    @apply w-1/2 p-2 outline-none rounded-lg border-2 border-gray-300 font-JostRegular;
   }
 }
